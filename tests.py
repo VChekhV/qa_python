@@ -217,4 +217,4 @@ class TestBooksCollector:
         # Получаем список избранных книг
         favorites = collector_with_books.get_list_of_favorites_books()
         # Проверяем, что список избранных соответствует ожиданиям
-        assert favorites == favorites_list1
+        assert favorites == favorites_list
